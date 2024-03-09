@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@color/black"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="SEPATU"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/sepatu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="2dp"
+        android:clickable="true"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vansbw" />
+
+            <TextView
+                android:id="@+id/textViewTitle1"
+                android:layout_width="235dp"
+                android:layout_height="55dp"
+                android:layout_alignTop="@id/imageView1"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="-1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toEndOf="@id/imageView1"
+                android:gravity="center"
+                android:text="Sepatu Vans Autenthic black and white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDescription1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitle1"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_toEndOf="@id/imageView1"
+                android:gravity="center"
+                android:text=" Kualitas : SUPER PREMIUM BNIB • Grade original / 1:1 original Quality • Import    : Made in China • Waffle     : DT • Material : Canvas "
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/Rp1"
+                android:layout_width="246dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitle1"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="109dp"
+                android:layout_toEndOf="@id/imageView1"
+                android:textColor="@color/ff0000"
+                android:text="RP. 1.500.000"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textHarga1"
+                android:layout_width="250dp"
+                android:layout_height="24dp"
+                android:layout_below="@id/textViewTitle1"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="90dp"
+                android:layout_toEndOf="@id/imageView1"
+                android:text="HARGA"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/sepatu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="2dp"
+        android:clickable="true"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vansputih" />
+
+            <TextView
+                android:id="@+id/textViewTitle2"
+                android:layout_width="235dp"
+                android:layout_height="55dp"
+                android:layout_alignTop="@id/imageView2"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="-1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toEndOf="@id/imageView2"
+                android:gravity="center"
+                android:text="Sepatu Vans Berle Pro Grey Black casual"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDescription2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitle2"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_toEndOf="@id/imageView2"
+                android:gravity="center"
+                android:text=" Kualitas : Super Premium BNIB Ukuran : 38 - 44 Material : Leather SUEDE Outsole : Rubber Premium High Quality - Made in China "
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/Rp2"
+                android:layout_width="246dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitle2"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="109dp"
+                android:layout_toEndOf="@id/imageView2"
+                android:text="RP. 1.900.000"
+                android:textColor="#FF0000"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textHarga2"
+                android:layout_width="250dp"
+                android:layout_height="24dp"
+                android:layout_below="@id/textViewTitle2"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="90dp"
+                android:layout_toEndOf="@id/imageView2"
+                android:text="HARGA"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+<androidx.cardview.widget.CardView
+android:id="@+id/sepatu3"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginStart="10dp"
+android:layout_marginTop="490dp"
+android:layout_marginEnd="2dp"
+android:clickable="true"
+app:cardCornerRadius="5dp"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="1.0"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="16dp">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/vanssrtager" />
+
+    <TextView
+        android:id="@+id/textViewTitle3"
+        android:layout_width="235dp"
+        android:layout_height="55dp"
+        android:layout_alignTop="@id/imageView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@id/imageView3"
+        android:gravity="center"
+        android:text="Sepatu Vans | Vans X Stranger Things Authentic"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDescription3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle3"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@id/imageView3"
+        android:gravity="center"
+        android:text=" kualitas : Brand New Include       Ukuran : 38 - 44 Kualitas : 100% ORIGINAL BNIB Made in China Global Release FAKE = FULL REFUND "
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/Rp3"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle3"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="109dp"
+        android:layout_toEndOf="@id/imageView3"
+        android:text="RP. 1.700.000"
+        android:textColor="#FF0000"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textHarga3"
+        android:layout_width="250dp"
+        android:layout_height="24dp"
+        android:layout_below="@id/textViewTitle3"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="90dp"
+        android:layout_toEndOf="@id/imageView3"
+        android:text="HARGA"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/sepatu4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="710dp"
+        android:layout_marginEnd="2dp"
+        android:clickable="true"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vanschima" />
+
+            <TextView
+                android:id="@+id/textViewTitle4"
+                android:layout_width="235dp"
+                android:layout_height="55dp"
+                android:layout_alignTop="@id/imageView4"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="-1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toEndOf="@id/imageView4"
+                android:gravity="center"
+                android:text="Sepatu vans |   mn chima pro 2"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDescription4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitle4"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_toEndOf="@id/imageView4"
+                android:gravity="center"
+                android:text=" Kondisi BNIB: (Brand New In Box) Authorized Dealer VANS Material Upper: Canvas dan Suede Material Outsole: Rubber Unisex Sneakers "
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/Rp4"
+                android:layout_width="246dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitle4"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="109dp"
+                android:layout_toEndOf="@id/imageView4"
+                android:text="RP. 1.500.000"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textHarga4"
+                android:layout_width="250dp"
+                android:layout_height="24dp"
+                android:layout_below="@id/textViewTitle4"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="90dp"
+                android:layout_toEndOf="@id/imageView4"
+                android:text="HARGA"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+             </RelativeLayout>
+
+         </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/sepatu5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="930dp"
+        android:layout_marginEnd="2dp"
+        android:clickable="true"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vansold" />
+
+            <TextView
+                android:id="@+id/textViewTitle5"
+                android:layout_width="235dp"
+                android:layout_height="55dp"
+                android:layout_alignTop="@id/imageView5"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="-1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toEndOf="@id/imageView5"
+                android:gravity="center"
+                android:text="Sepatu Vans |ComfyCush Old Skool"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDescription5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitle5"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_toEndOf="@id/imageView5"
+                android:gravity="center"
+                android:text=" KUALITAS : Premium BNIB (Brand New In Box) KONDISI : New/Baru With Box Vans KODE PRODUK : Waffle ICC (Made In China) BAHAN : Suede, Canvas, Rubber Sole "
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/Rp5"
+                android:layout_width="246dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitle5"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="109dp"
+                android:layout_toEndOf="@id/imageView5"
+                android:text="RP. 1.600.000"
+                android:textColor="#FF0000"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textHarga5"
+                android:layout_width="250dp"
+                android:layout_height="24dp"
+                android:layout_below="@id/textViewTitle5"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="90dp"
+                android:layout_toEndOf="@id/imageView5"
+                android:text="HARGA"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
